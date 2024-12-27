@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <img class="header__logo" src="./assets/logo.png" alt="Logo" />
+        <img class="header__menu-mobile" src="./assets/menu.svg" alt="Menu" />
+        <div class="header__menu-desktop">
+          <span class="header__menu-desktop-item">quien soy</span>
+          <span class="header__menu-desktop-item">servicios</span>
+          <span class="header__menu-desktop-item">escribime</span>
+        </div>
+      </nav>
+      <div class="header__contain">
+        <h1 class="header__title">Bienvenidos a mi site</h1>
+        <img class="header__image" src="./assets/avatar.svg" alt="Avatar" />
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__contain">
+        <h2 class="main__title">Soy Diego</h2>
+        <p class="main__text">
+          Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+          vehicula velit. Aenean lobortis posuere tristique. Phasellus placerat
+          arcu elementum nisi ultrices cursus. Etiam sit amet aliquet lacus.
+          Integer ut iaculis augue, sit amet tincidunt ex. In eleifend justo et
+          sodales semper. Mauris nec tortor lectus. Curabitur nec ultricies
+          dolor.
+        </p>
+      </div>
+
+      <img class="main__image" src="./assets/check.png" alt="Check" />
+    </main>
+    <section class="services">
+      <h2 class="services__title">Mis servicios</h2>
+      <div class="services__container">
+        <article class="services__service">
+          <img src="./assets/laptop.svg" alt="" class="services__image" />
+          <h3 class="services__subtitle">Hago Cosas</h3>
+          <p class="services__text">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </article>
+        <article class="services__service">
+          <img src="./assets/laptop.svg" alt="" class="services__image" />
+          <h3 class="services__subtitle">Y más cosas</h3>
+          <p class="services__text">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </article>
+        <article class="services__service">
+          <img src="./assets/laptop.svg" alt="" class="services__image" />
+          <h3 class="services__subtitle">Y también otras cosas</h3>
+          <p class="services__text">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </article>
+      </div>
+    </section>
+    <section class="contact">
+      <h2 class="contact__title">Escribime</h2>
+      <form class="contact__form">
+        <label class="contact__label-name" for="name">
+          Nombre
+          <input
+            class="contact__input-name"
+            type="text"
+            id="name"
+            name="name"
+          />
+        </label>
+        <label class="contact__label-email" for="email">
+          Email
+          <input
+            class="contact__input-email"
+            type="email"
+            id="email"
+            name="email"
+          />
+        </label>
+        <label class="contact__label-textarea" for="textarea">
+          Mensaje
+          <textarea
+            class="contact__input-textarea"
+            id="textarea"
+            name="textarea"
+          >
+          </textarea>
+        </label>
+        <button class="contact__button">Enviar</button>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="footer__first-section">
+        <img class="footer__logo" src="./assets/logo.png" alt="Logo" />
+        <p class="footer__licence">© 2024 Diego</p>
+      </div>
+      <div class="footer__social-section">
+        <div class="footer__social">
+          <img
+            class="footer__social-img"
+            src="./assets/instagram.png"
+            alt="Instagram"
+          />
+          <p class="footer__social-name">Instagram</p>
+        </div>
+        <div class="footer__social">
+          <img
+            class="footer__social-img"
+            src="./assets/linkedin.png"
+            alt="Linkedin"
+          />
+          <p class="footer__social-name">Linkedin</p>
+        </div>
+        <div class="footer__social">
+          <img
+            class="footer__social-img"
+            src="./assets/github.png"
+            alt="Github"
+          />
+          <p class="footer__social-name">Github</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
